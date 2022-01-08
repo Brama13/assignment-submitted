@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(201, 237, 248);
+}
+#border{
+    background-color: rgb(244, 250, 248);
+    height: 25cm;
+    width: 20cm;
+    margin: 1cm;
+    margin-left: 10cm;
+    border-style: single;
+    border-color: rgb(63, 33, 33);
+}
+#heading{
+    background-color: rgb(244, 248, 247);
+    height: 15cm;
+    width: 30cm;
+}
+h1{
+    margin: 0%;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    margin-top: 10cm;
+}
+h3{
+    text-align: center;
+    margin-top: 2cm;
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    margin: 1.3cm;
+    font-family: cursive;
+}
+p::first-letter{
+    font-size: xxx-large;
+}
+h5{
+    text-align:right;
+    font-family:serif;
+
+}
