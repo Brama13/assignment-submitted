@@ -1,0 +1,35 @@
+
+<html>
+    <head>
+        <title>Like dislike</title>
+        <link rel="stylesheet" href="like.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <style>
+            body{
+        background-image: url("https://cdn2.vectorstock.com/i/1000x1000/95/16/elegant-black-background-with-gold-lace-ornament-vector-2269516.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: fixed;
+    }
+            
+        </style>
+    </head>
+    <body>
+        
+        <div>
+            <img src="https://c.tenor.com/WJmE0_fsoKcAAAAC/loki-presidente-loki.gif" alt="">
+        
+        </div>
+        <div>
+        <button onclick="like();"><i class="far fa-thumbs-up"></i> Like</button> <p id="counter">0</p> <button onclick="dislike();"><i class="far fa-thumbs-down"></i> Dislike </button>
+    </div>
+    <div>
+       <p>Total Likes: <span id="lik">o</span> </p> <b></b>
+       <p>Total Dislikes: <span id="dis">o</span></p>
+    </div>
+    <div>
+        <button class="reset" onclick="reset();">Reset</button>
+    </div>
+        <script src="like.js"></script>
+    </body>
+</html>

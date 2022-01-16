@@ -1,0 +1,40 @@
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 47px;
+  }
+  
+  .header {
+    background-color: #f1cfbe;
+    height: 41px;
+    text-align: center;
+  }
+  
+  .header h3 {
+    padding: 10px;
+  }
+  
+  .aside {
+    display: flex;
+  }
+  
+  .aside1 {
+    background-color: #ebe9e3;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .para {
+    background-color: #00a8cc;
+    width: 70%;
+    padding: 9px;
+  }
+  
+  .footer {
+    background-color: #32382a60;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 10px;
+  }

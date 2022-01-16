@@ -1,0 +1,42 @@
+
+header{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(243, 245, 250);
+    
+}
+header:hover, h1:hover , .letter:hover{
+    color: rgb(240, 227, 158);
+}
+
+.contact > h1{
+    text-align: center;
+    background-color: rgba(235, 237, 100, 0.253);
+}
+.contact{
+    padding: 20px;
+    overflow: scroll;
+    height: 250px;
+    background-color: rgba(226, 200, 128, 0.781);
+    margin: 100px;
+    position: flex;
+    flex-wrap: wrap;
+    
+}
+.contact > .letter{
+    position: sticky;
+    background-color: rgba(248, 242, 214, 0.411);
+    top:0px;
+}
+li{
+list-style: none;
+
+}
+li:hover{
+    font-size: 30px;
+    background-color: rgba(37, 37, 30, 0.192);
+    
+}
+body{
+    background-color: rgb(241, 235, 201);
+}

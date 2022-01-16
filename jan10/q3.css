@@ -1,0 +1,39 @@
+
+.container{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header{
+    background-color: #ebe0c4;
+    height: 35px;
+    text-align: center;
+  }
+  
+  .header h3 {
+    padding-top: 5px;
+  }
+  
+  .para{
+    background-color: #f1ccd8;
+    padding: 15px;
+  }
+  
+  .aside1{
+    background-color: #d0f7e581;
+    text-align: center;
+    padding: 6px;
+  }
+  
+  .aside2 {
+    background-color: #E7FBBE;
+    text-align: center;
+    padding: 6px;
+  }
+  
+  .footer{
+    background-color: #e2e1f8;
+    text-align: center;
+    padding: 6px;
+  }
