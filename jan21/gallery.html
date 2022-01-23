@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nature Gallery</title>
+        <link rel="stylesheet" href="gallery.css">
+
+    </head>
+    <body>
+        <main>
+            <h1>Image Gallery Design</h1>
+            <div class="open" id="shape">
+                <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" id="large">
+                <span onclick="closeFullImg()">X</span>
+            </div>
+            <div class="gallery">
+                <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/3064079/pexels-photo-3064079.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/4534200/pexels-photo-4534200.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/5409751/pexels-photo-5409751.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/4072840/pexels-photo-4072840.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/7267852/pexels-photo-7267852.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/1591373/pexels-photo-1591373.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/2387418/pexels-photo-2387418.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/2356059/pexels-photo-2356059.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/1062249/pexels-photo-1062249.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/6992/forest-trees-northwestisbest-exploress.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+                <img src="https://images.pexels.com/photos/839462/pexels-photo-839462.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" onclick="openFullImg(this.src)">
+              
+            </div>
+        </main>
+        <h1 style="text-align:center;"></h1>
+<div class="full-img" id="fullImgBox">
+    <img src="https://tse3.mm.bing.net/th?id=OIP.uzBQqJEQnYnaed_kbnG-RQHaEK&pid=Api&P=0&w=349&h=196" id="fullImg">
+    <span onclick="closeFullImg()">X</span>
+</div>
+
+        <div class="img-gallery">
+            <img src="https://authentictraveling.com/wp-content/uploads/2017/02/cleaning-the-streets-trinidad-daily-life-in-cuba-2.jpg" onclick="openFullImg(this.src)">
+            <img src="https://insidemegsmind.com/wp-content/uploads/2020/09/BT1-HEADER-DAILY-LIFE-1200x469-1-1024x400.jpg" onclick="openFullImg(this.src)">
+           
+            <img src="https://tse3.mm.bing.net/th?id=OIP.lUG3IR8bGtsvuX4LitmbnwHaEr&pid=Api&P=0&w=247&h=156" onclick="openFullImg(this.src)">
+            <img src="https://s-i.huffpost.com/gen/1541065/images/o-NEPAL-DAILY-LIFE-facebook.jpg" onclick="openFullImg(this.src)">
+            <img src="https://theviraler.com/wp-content/uploads/2019/06/1559561736_a_look_at_life_in_china_004410_020.jpg" onclick="openFullImg(this.src)">
+            <img src="https://theviraler.com/wp-content/uploads/2019/07/1563284522_a_look_at_life_in_india_004622_003.jpg" onclick="openFullImg(this.src)">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/dufnnirtnu0oasjyl01g" onclick="openFullImg(this.src)">
+            <img src="https://hmapr.com/wp-content/uploads/2019/08/How-do-you-use-public-relations-in-your-daily-life.jpg" onclick="openFullImg(this.src)">
+            
+
+
+        </div>
+
+        <script>
+            var fullImgBox=document.getElementById("fullImgBox");
+            var fullImg=document.getElementById("fullImg");
+
+            function openFullImg(pic){
+                fullImgBox.style.display="flex";
+                fullImg.src=pic;
+            }
+            function closeFullImg(){
+              fullImgBox.style.display="none";  
+            }
+        </script>
+
+        <script src="gallery js"></script>
+
+    </body>
+</html>
